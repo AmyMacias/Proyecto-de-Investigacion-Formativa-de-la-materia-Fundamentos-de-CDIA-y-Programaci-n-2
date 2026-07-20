@@ -1,0 +1,101 @@
+id_clase,materia,profesor,grupo,horas_semanales,nivel_dificultad,horas_no_disponibles
+CLS-1001,Redes de Computadoras,Ricardo Merino,A,3.0,medio,Jueves-15h00
+CLS-1002,Estructuras de Datos,Luis Fernández,B,3.0,alto,Lunes-15h00
+CLS-1003,Redes de Computadoras,Diana Cabrera,C,3.0,medio,Jueves-16h00
+CLS-1004,Bases de Datos,Santiago Torres,D,4.0,medio,Jueves-08h00
+CLS-1005,Inteligencia Artificial,Ricardo Merino,A,3.0,alto,Jueves-15h00
+CLS-1006,Estadística Inferencial,Ricardo Merino,B,3.0,bajo,Jueves-15h00
+CLS-1007,Física II,Elena Rostova,C,3.0,alto,Martes-15h00
+CLS-1008,Física II,Elena Rostova,D,5.0,medio,Martes-15h00
+CLS-1009,Investigación de Operaciones,Jorge Loayza,A,3.0,bajo,Lunes-08h00
+CLS-1010,Ingeniería de Software,Diana Cabrera,B,3.0,bajo,Jueves-16h00
+CLS-1011,Programación II,Roberto Gómez,C,5.0,medio,Lunes-09h00
+CLS-1012,Sistemas Operativos,Luis Fernández,D,3.0,medio,Lunes-15h00
+CLS-1013,Desarrollo Web,Roberto Gómez,A,3.0,bajo,Lunes-09h00
+CLS-1014,Investigación de Operaciones,Jorge Loayza,B,3.0,bajo,Lunes-08h00
+CLS-1015,Desarrollo Web,Roberto Gómez,C,3.0,medio,Lunes-09h00
+CLS-1016,Cálculo Integral,Ana María Silva,D,3.0,alto,Lunes-17h00
+CLS-1017,Estadística Inferencial,Ricardo Merino,A,3.0,bajo,Jueves-15h00
+CLS-1018,Sistemas Operativos,Santiago Torres,B,3.0,medio,Jueves-08h00
+CLS-1019,Cálculo Diferencial,Ana María Silva,C,3.0,alto,Lunes-17h00
+CLS-1020,Programación II,Carlos Mendoza,D,2.0,medio,Lunes-07h00
+CLS-1021,Estructuras de Datos,Luis Fernández,A,5.0,alto,Lunes-15h00
+CLS-1022,Métodos Numéricos,Ana María Silva,B,5.0,medio,Lunes-17h00
+CLS-1023,Sistemas Operativos,Santiago Torres,C,4.0,medio,Jueves-08h00
+CLS-1024,Investigación de Operaciones,Jorge Loayza,D,2.0,bajo,Lunes-08h00
+CLS-1025,Métodos Numéricos,Ana María Silva,A,4.0,bajo,Lunes-17h00
+CLS-1026,Programación II,Roberto Gómez,B,5.0,medio,Lunes-09h00
+CLS-1027,Bases de Datos,Santiago Torres,C,2.0,medio,Jueves-08h00
+CLS-1028,Desarrollo Web,Roberto Gómez,D,3.0,bajo,Lunes-09h00
+CLS-1029,Sistemas Operativos,Luis Fernández,A,4.0,medio,Lunes-15h00
+CLS-1030,Desarrollo Web,Carlos Mendoza,B,3.0,bajo,Lunes-07h00
+CLS-1031,Ingeniería de Software,Diana Cabrera,C,2.0,bajo,Jueves-16h00
+CLS-1032,Inteligencia Artificial,Ricardo Merino,D,5.0,alto,Jueves-15h00
+CLS-1033,Programación I,Carlos Mendoza,A,4.0,medio,Lunes-07h00
+CLS-1034,Álgebra Lineal,Jorge Loayza,B,2.0,alto,Lunes-08h00
+CLS-1035,Álgebra Lineal,Jorge Loayza,C,2.0,alto,Lunes-08h00
+CLS-1036,Estadística Inferencial,Jorge Loayza,D,3.0,medio,Lunes-08h00
+CLS-1037,Cálculo Diferencial,Martha Palacios,A,3.0,alto,Martes-10h00
+CLS-1038,Física I,Santiago Torres,B,3.0,alto,Jueves-08h00
+CLS-1039,Minería de Datos,Roberto Gómez,C,4.0,bajo,Lunes-09h00
+CLS-1040,Ingeniería de Software,Patricia Armas,D,5.0,bajo,Miércoles-16h00
+CLS-1041,Minería de Datos,Roberto Gómez,A,3.0,bajo,Lunes-09h00
+CLS-1042,Cálculo Integral,Ana María Silva,B,4.0,alto,Lunes-17h00
+CLS-1043,Programación I,Carlos Mendoza,C,3.0,medio,Lunes-07h00
+CLS-1044,Programación I,Carlos Mendoza,D,2.0,medio,Lunes-07h00
+CLS-1045,Bases de Datos,Luis Fernández,A,2.0,medio,Lunes-15h00
+CLS-1046,Minería de Datos,Roberto Gómez,B,3.0,bajo,Lunes-09h00
+CLS-1047,Investigación de Operaciones,Jorge Loayza,C,3.0,bajo,Lunes-08h00
+CLS-1048,Métodos Numéricos,Ana María Silva,D,3.0,bajo,Lunes-17h00
+CLS-1049,Física II,Elena Rostova,A,3.0,alto,Martes-15h00
+CLS-1050,Bases de Datos,Santiago Torres,B,3.0,medio,Jueves-08h00
+CLS-1051,Cálculo Integral,Ana María Silva,C,3.0,alto,Lunes-17h00
+CLS-1052,Minería de Datos,Roberto Gómez,D,3.0,bajo,Lunes-09h00
+CLS-1053,Física I,Santiago Torres,A,3.0,alto,Jueves-08h00
+CLS-1054,Programación I,Carlos Mendoza,B,2.0,medio,Lunes-07h00
+CLS-1055,Métodos Numéricos,Ana María Silva,C,2.0,bajo,Lunes-17h00
+CLS-1056,Cálculo Diferencial,Ana María Silva,D,3.0,alto,Lunes-17h00
+CLS-1057,Ingeniería de Software,Diana Cabrera,A,5.0,medio,Jueves-16h00
+CLS-1058,Física II,Elena Rostova,B,5.0,alto,Martes-15h00
+CLS-1059,Física I,Elena Rostova,C,5.0,alto,Martes-15h00
+CLS-1060,Estructuras de Datos,Luis Fernández,D,2.0,alto,Lunes-15h00
+CLS-1061,Programación II,Carlos Mendoza,A,3.0,medio,Lunes-07h00
+CLS-1062,Redes de Computadoras,Ricardo Merino,B,5.0,medio,Jueves-15h00
+CLS-1063,Estructuras de Datos,Patricia Armas,C,2.0,alto,Miércoles-16h00
+CLS-1064,Álgebra Lineal,Martha Palacios,D,2.0,medio,Martes-10h00
+CLS-1065,Álgebra Lineal,Martha Palacios,A,5.0,alto,Martes-10h00
+CLS-1066,Inteligencia Artificial,Ricardo Merino,B,5.0,alto,Jueves-15h00
+CLS-1067,Estadística Inferencial,Jorge Loayza,C,4.0,bajo,Lunes-08h00
+CLS-1068,Física I,Elena Rostova,D,2.0,alto,Martes-15h00
+CLS-1069,Cálculo Integral,Ana María Silva,A,2.0,alto,Lunes-17h00
+CLS-1070,Cálculo Diferencial,Ana María Silva,B,2.0,alto,Lunes-17h00
+CLS-1071,Inteligencia Artificial,Diana Cabrera,C,2.0,medio,Jueves-16h00
+CLS-1072,Redes de Computadoras,Diana Cabrera,D,5.0,medio,Jueves-16h00
+CLS-1073,Bases de Datos,Luis Fernández,A,2.0,medio,Lunes-15h00
+CLS-1074,Estructuras de Datos,Patricia Armas,B,4.0,alto,Miércoles-16h00
+CLS-1075,Física II,Elena Rostova,C,4.0,alto,Martes-15h00
+CLS-1076,Física I,Santiago Torres,D,5.0,alto,Jueves-08h00
+CLS-1077,Cálculo Diferencial,Martha Palacios,A,5.0,alto,Martes-10h00
+CLS-1078,Sistemas Operativos,Luis Fernández,B,2.0,medio,Lunes-15h00
+CLS-1079,Métodos Numéricos,Ana María Silva,C,3.0,bajo,Lunes-17h00
+CLS-1080,Desarrollo Web,Carlos Mendoza,D,3.0,bajo,Lunes-07h00
+CLS-1081,Cálculo Diferencial,Martha Palacios,A,3.0,alto,Martes-10h00
+CLS-1082,Física I,Santiago Torres,B,3.0,alto,Jueves-08h00
+CLS-1083,Cálculo Integral,Martha Palacios,C,3.0,alto,Martes-10h00
+CLS-1084,Minería de Datos,Roberto Gómez,D,3.0,bajo,Lunes-09h00
+CLS-1085,Bases de Datos,Luis Fernández,A,3.0,medio,Lunes-15h00
+CLS-1086,Bases de Datos,Luis Fernández,B,3.0,medio,Lunes-15h00
+CLS-1087,Física II,Elena Rostova,C,3.0,alto,Martes-15h00
+CLS-1088,Sistemas Operativos,Luis Fernández,D,4.0,medio,Lunes-15h00
+CLS-1089,Minería de Datos,Roberto Gómez,A,4.0,bajo,Lunes-09h00
+CLS-1090,Programación II,Carlos Mendoza,B,5.0,medio,Lunes-07h00
+CLS-1091,Física II,Elena Rostova,C,2.0,alto,Martes-15h00
+CLS-1092,Sistemas Operativos,Luis Fernández,D,4.0,medio,Lunes-15h00
+CLS-1093,Cálculo Integral,Martha Palacios,A,5.0,alto,Martes-10h00
+CLS-1094,Desarrollo Web,Carlos Mendoza,B,2.0,bajo,Lunes-07h00
+CLS-1095,Estructuras de Datos,Luis Fernández,C,2.0,alto,Lunes-15h00
+CLS-1096,Ingeniería de Software,Diana Cabrera,D,5.0,bajo,Jueves-16h00
+CLS-1097,Cálculo Diferencial,Ana María Silva,A,4.0,alto,Lunes-17h00
+CLS-1098,Ingeniería de Software,Diana Cabrera,B,4.0,bajo,Jueves-16h00
+CLS-1099,Álgebra Lineal,Jorge Loayza,C,2.0,medio,Lunes-08h00
+CLS-1100,Ingeniería de Software,Patricia Armas,D,3.0,bajo,Miércoles-16h00

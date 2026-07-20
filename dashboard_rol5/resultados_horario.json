@@ -1,0 +1,934 @@
+{
+  "fitness_inicial": 62,
+  "fitness_final": 100,
+  "historial_fitness": [
+    79,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "resultado_optimo": {
+    "fitness": 100,
+    "conflictos_profesor": 0,
+    "conflictos_grupo": 0,
+    "profesores_no_disponibles": 0,
+    "materias_repetidas": 0,
+    "materias_dificiles": 0,
+    "distribucion_desigual": 0
+  },
+  "resultado_imprevisto": {
+    "fitness": 97,
+    "conflictos_profesor": 0,
+    "conflictos_grupo": 0,
+    "profesores_no_disponibles": 0,
+    "materias_repetidas": 0,
+    "materias_dificiles": 0,
+    "distribucion_desigual": 3
+  },
+  "profesor_afectado": "Elena Rostova",
+  "clases_afectadas": [
+    {
+      "ID Clase": "CLS-1007",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1008",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "D",
+      "Día": "Martes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1049",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "A",
+      "Día": "Lunes",
+      "Hora": "11h00"
+    },
+    {
+      "ID Clase": "CLS-1058",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "B",
+      "Día": "Martes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1059",
+      "Materia": "Física I",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1068",
+      "Materia": "Física I",
+      "Profesor": "Elena Rostova",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1075",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Jueves",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1087",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Miércoles",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1091",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "10h00"
+    }
+  ],
+  "carga_docente": {
+    "Ana María Silva": 13,
+    "Carlos Mendoza": 10,
+    "Diana Cabrera": 8,
+    "Elena Rostova": 9,
+    "Jorge Loayza": 9,
+    "Luis Fernández": 13,
+    "Martha Palacios": 7,
+    "Patricia Armas": 4,
+    "Ricardo Merino": 7,
+    "Roberto Gómez": 11,
+    "Santiago Torres": 9
+  },
+  "tabla_horario": [
+    {
+      "ID Clase": "CLS-1001",
+      "Materia": "Redes de Computadoras",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "A",
+      "Día": "Viernes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1002",
+      "Materia": "Estructuras de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1003",
+      "Materia": "Redes de Computadoras",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "C",
+      "Día": "Jueves",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1004",
+      "Materia": "Bases de Datos",
+      "Profesor": "Santiago Torres",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "11h00"
+    },
+    {
+      "ID Clase": "CLS-1005",
+      "Materia": "Inteligencia Artificial",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "A",
+      "Día": "Viernes",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1006",
+      "Materia": "Estadística Inferencial",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "11h00"
+    },
+    {
+      "ID Clase": "CLS-1007",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1008",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "D",
+      "Día": "Martes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1009",
+      "Materia": "Investigación de Operaciones",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "A",
+      "Día": "Jueves",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1010",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "B",
+      "Día": "Lunes",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1011",
+      "Materia": "Programación II",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1012",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "D",
+      "Día": "Viernes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1013",
+      "Materia": "Desarrollo Web",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "A",
+      "Día": "Martes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1014",
+      "Materia": "Investigación de Operaciones",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "B",
+      "Día": "Martes",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1015",
+      "Materia": "Desarrollo Web",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1016",
+      "Materia": "Cálculo Integral",
+      "Profesor": "Ana María Silva",
+      "Grupo": "D",
+      "Día": "Lunes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1017",
+      "Materia": "Estadística Inferencial",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1018",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Santiago Torres",
+      "Grupo": "B",
+      "Día": "Martes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1019",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Ana María Silva",
+      "Grupo": "C",
+      "Día": "Jueves",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1020",
+      "Materia": "Programación II",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "D",
+      "Día": "Jueves",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1021",
+      "Materia": "Estructuras de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "A",
+      "Día": "Martes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1022",
+      "Materia": "Métodos Numéricos",
+      "Profesor": "Ana María Silva",
+      "Grupo": "B",
+      "Día": "Lunes",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1023",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Santiago Torres",
+      "Grupo": "C",
+      "Día": "Miércoles",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1024",
+      "Materia": "Investigación de Operaciones",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1025",
+      "Materia": "Métodos Numéricos",
+      "Profesor": "Ana María Silva",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1026",
+      "Materia": "Programación II",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "B",
+      "Día": "Miércoles",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1027",
+      "Materia": "Bases de Datos",
+      "Profesor": "Santiago Torres",
+      "Grupo": "C",
+      "Día": "Lunes",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1028",
+      "Materia": "Desarrollo Web",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "D",
+      "Día": "Jueves",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1029",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "A",
+      "Día": "Jueves",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1030",
+      "Materia": "Desarrollo Web",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "B",
+      "Día": "Martes",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1031",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "C",
+      "Día": "Lunes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1032",
+      "Materia": "Inteligencia Artificial",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "D",
+      "Día": "Jueves",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1033",
+      "Materia": "Programación I",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "A",
+      "Día": "Martes",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1034",
+      "Materia": "Álgebra Lineal",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1035",
+      "Materia": "Álgebra Lineal",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "C",
+      "Día": "Miércoles",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1036",
+      "Materia": "Estadística Inferencial",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "D",
+      "Día": "Lunes",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1037",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Martha Palacios",
+      "Grupo": "A",
+      "Día": "Martes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1038",
+      "Materia": "Física I",
+      "Profesor": "Santiago Torres",
+      "Grupo": "B",
+      "Día": "Miércoles",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1039",
+      "Materia": "Minería de Datos",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1040",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Patricia Armas",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1041",
+      "Materia": "Minería de Datos",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "A",
+      "Día": "Lunes",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1042",
+      "Materia": "Cálculo Integral",
+      "Profesor": "Ana María Silva",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1043",
+      "Materia": "Programación I",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1044",
+      "Materia": "Programación I",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "D",
+      "Día": "Lunes",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1045",
+      "Materia": "Bases de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1046",
+      "Materia": "Minería de Datos",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "B",
+      "Día": "Miércoles",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1047",
+      "Materia": "Investigación de Operaciones",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "C",
+      "Día": "Lunes",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1048",
+      "Materia": "Métodos Numéricos",
+      "Profesor": "Ana María Silva",
+      "Grupo": "D",
+      "Día": "Viernes",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1049",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "A",
+      "Día": "Lunes",
+      "Hora": "11h00"
+    },
+    {
+      "ID Clase": "CLS-1050",
+      "Materia": "Bases de Datos",
+      "Profesor": "Santiago Torres",
+      "Grupo": "B",
+      "Día": "Viernes",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1051",
+      "Materia": "Cálculo Integral",
+      "Profesor": "Ana María Silva",
+      "Grupo": "C",
+      "Día": "Jueves",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1052",
+      "Materia": "Minería de Datos",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1053",
+      "Materia": "Física I",
+      "Profesor": "Santiago Torres",
+      "Grupo": "A",
+      "Día": "Martes",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1054",
+      "Materia": "Programación I",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1055",
+      "Materia": "Métodos Numéricos",
+      "Profesor": "Ana María Silva",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1056",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Ana María Silva",
+      "Grupo": "D",
+      "Día": "Martes",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1057",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1058",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "B",
+      "Día": "Martes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1059",
+      "Materia": "Física I",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1060",
+      "Materia": "Estructuras de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "D",
+      "Día": "Lunes",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1061",
+      "Materia": "Programación II",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "A",
+      "Día": "Lunes",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1062",
+      "Materia": "Redes de Computadoras",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1063",
+      "Materia": "Estructuras de Datos",
+      "Profesor": "Patricia Armas",
+      "Grupo": "C",
+      "Día": "Lunes",
+      "Hora": "11h00"
+    },
+    {
+      "ID Clase": "CLS-1064",
+      "Materia": "Álgebra Lineal",
+      "Profesor": "Martha Palacios",
+      "Grupo": "D",
+      "Día": "Viernes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1065",
+      "Materia": "Álgebra Lineal",
+      "Profesor": "Martha Palacios",
+      "Grupo": "A",
+      "Día": "Jueves",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1066",
+      "Materia": "Inteligencia Artificial",
+      "Profesor": "Ricardo Merino",
+      "Grupo": "B",
+      "Día": "Lunes",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1067",
+      "Materia": "Estadística Inferencial",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "C",
+      "Día": "Lunes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1068",
+      "Materia": "Física I",
+      "Profesor": "Elena Rostova",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1069",
+      "Materia": "Cálculo Integral",
+      "Profesor": "Ana María Silva",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1070",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Ana María Silva",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1071",
+      "Materia": "Inteligencia Artificial",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1072",
+      "Materia": "Redes de Computadoras",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "D",
+      "Día": "Martes",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1073",
+      "Materia": "Bases de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "A",
+      "Día": "Martes",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1074",
+      "Materia": "Estructuras de Datos",
+      "Profesor": "Patricia Armas",
+      "Grupo": "B",
+      "Día": "Viernes",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1075",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Jueves",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1076",
+      "Materia": "Física I",
+      "Profesor": "Santiago Torres",
+      "Grupo": "D",
+      "Día": "Jueves",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1077",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Martha Palacios",
+      "Grupo": "A",
+      "Día": "Lunes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1078",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "B",
+      "Día": "Miércoles",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1079",
+      "Materia": "Métodos Numéricos",
+      "Profesor": "Ana María Silva",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1080",
+      "Materia": "Desarrollo Web",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "D",
+      "Día": "Viernes",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1081",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Martha Palacios",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1082",
+      "Materia": "Física I",
+      "Profesor": "Santiago Torres",
+      "Grupo": "B",
+      "Día": "Jueves",
+      "Hora": "16h00"
+    },
+    {
+      "ID Clase": "CLS-1083",
+      "Materia": "Cálculo Integral",
+      "Profesor": "Martha Palacios",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "15h00"
+    },
+    {
+      "ID Clase": "CLS-1084",
+      "Materia": "Minería de Datos",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "D",
+      "Día": "Martes",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1085",
+      "Materia": "Bases de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "A",
+      "Día": "Viernes",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1086",
+      "Materia": "Bases de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "B",
+      "Día": "Lunes",
+      "Hora": "11h00"
+    },
+    {
+      "ID Clase": "CLS-1087",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Miércoles",
+      "Hora": "09h00"
+    },
+    {
+      "ID Clase": "CLS-1088",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "D",
+      "Día": "Lunes",
+      "Hora": "14h00"
+    },
+    {
+      "ID Clase": "CLS-1089",
+      "Materia": "Minería de Datos",
+      "Profesor": "Roberto Gómez",
+      "Grupo": "A",
+      "Día": "Miércoles",
+      "Hora": "18h00"
+    },
+    {
+      "ID Clase": "CLS-1090",
+      "Materia": "Programación II",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "B",
+      "Día": "Viernes",
+      "Hora": "12h00"
+    },
+    {
+      "ID Clase": "CLS-1091",
+      "Materia": "Física II",
+      "Profesor": "Elena Rostova",
+      "Grupo": "C",
+      "Día": "Martes",
+      "Hora": "10h00"
+    },
+    {
+      "ID Clase": "CLS-1092",
+      "Materia": "Sistemas Operativos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "D",
+      "Día": "Miércoles",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1093",
+      "Materia": "Cálculo Integral",
+      "Profesor": "Martha Palacios",
+      "Grupo": "A",
+      "Día": "Jueves",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1094",
+      "Materia": "Desarrollo Web",
+      "Profesor": "Carlos Mendoza",
+      "Grupo": "B",
+      "Día": "Viernes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1095",
+      "Materia": "Estructuras de Datos",
+      "Profesor": "Luis Fernández",
+      "Grupo": "C",
+      "Día": "Viernes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1096",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "D",
+      "Día": "Viernes",
+      "Hora": "17h00"
+    },
+    {
+      "ID Clase": "CLS-1097",
+      "Materia": "Cálculo Diferencial",
+      "Profesor": "Ana María Silva",
+      "Grupo": "A",
+      "Día": "Viernes",
+      "Hora": "08h00"
+    },
+    {
+      "ID Clase": "CLS-1098",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Diana Cabrera",
+      "Grupo": "B",
+      "Día": "Martes",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1099",
+      "Materia": "Álgebra Lineal",
+      "Profesor": "Jorge Loayza",
+      "Grupo": "C",
+      "Día": "Lunes",
+      "Hora": "13h00"
+    },
+    {
+      "ID Clase": "CLS-1100",
+      "Materia": "Ingeniería de Software",
+      "Profesor": "Patricia Armas",
+      "Grupo": "D",
+      "Día": "Lunes",
+      "Hora": "17h00"
+    }
+  ]
+}
